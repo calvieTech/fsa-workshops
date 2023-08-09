@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/** Nav */
+.nav_container {
+	position: fixed;
+	top: 0;
+	left: 28px;
+	right: 28px;
+	min-width: 90%;
+	height: 60px;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	z-index: 1;
+}
+
+.nav_header {
+	display: flex;
+	align-items: center;
+	margin-left: 28px;
+}
+
+.nav_bar > .nav_links {
+	list-style: none;
+	display: flex;
+}
+
+.nav_links li {
+	display: inherit;
+	margin: 0px 21px;
+	padding: 0px 14px 7px;
+}
+
+.nav_links li:hover {
+	color: purple;
+}
+
+/** Hero */
+.hero_container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1050px;
+	background-image: url("nasa.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.hero_title {
+	position: absolute;
+	/* top: 30%;
+	left: 30%; */
+	z-index: 99;
+	color: white;
+	font-size: 3.5rem;
+}
+
+.hero_subTitle {
+	position: absolute;
+	bottom: 35%;
+	font-size: 3rem;
+	color: pink;
+}
+
+/** About */
+.about {
+	/* position: relative; */
+	margin: 0;
+	height: 768px;
+	background-color: rgb(153, 153, 153);
+}
+
+.about_title {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+
+.about_paragraph {
+	margin: 7px 28px;
+}

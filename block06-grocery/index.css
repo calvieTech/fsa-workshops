@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+.container {
+	color: white;
+	background-color: black;
+	margin: 0;
+	height: 100%;
+}
+
+.pantry {
+	background-color: black;
+	height: 100%;
+}
+
+.title > h1 {
+	text-align: center;
+	color: lightblue;
+	padding: 21px 0px;
+	font-size: 49px;
+}
+
+/** Pantry Section */
+.pantry {
+	position: relative;
+	top: 49px;
+	left: 49px;
+	width: 75%;
+	background-color: black;
+}
+
+.pantry_title > h1 {
+	font-size: 42px;
+	padding: 7px 0px;
+	width: 70%;
+	background-color: red;
+	border: 2px solid white;
+}
+
+.pantry_items > img {
+	padding: 28px 0px 28px 0px;
+	width: 400px;
+}
+
+/** CannedGoods Items */
+.canned {
+	background-color: darkblue;
+	height: 300px;
+	margin: 28px 28px 28px 0px;
+	width: 500px;
+	font-size: 28px;
+}
+
+.canned > h2 {
+	padding: 14px;
+	margin-left: 28px;
+}
+
+.canned > ul {
+	margin-left: 28px;
+}
+
+/** DryGoods Items */
+.dry {
+	background-color: darkblue;
+	height: 300px;
+	margin: 28px 28px 28px 14px;
+	width: 500px;
+	font-size: 28px;
+}
+
+.dry > h2 {
+	padding: 14px;
+	margin-left: 28px;
+}
+
+.dry > ul {
+	margin-left: 28px;
+}
+
+/** Sections */
+.pantry_items,
+.freezer_items {
+	width: 100%;
+	display: flex;
+}
+
+/** Freezer Section */
+.freezer {
+	position: relative;
+	top: 49px;
+	left: 49px;
+	width: 75%;
+	background-color: black;
+}
+
+.freezer_title > h1 {
+	font-size: 42px;
+	padding: 7px 0px;
+	width: 70%;
+	background-color: red;
+	border: 2px solid white;
+}
+
+.freezer_items > img {
+	padding: 28px 0px 28px 0px;
+	width: 400px;
+}
+
+/** Veggies Items */
+.veggies {
+	background-color: darkblue;
+	height: 300px;
+	margin: 28px 28px 28px 0px;
+	width: 500px;
+	font-size: 28px;
+}
+
+.veggies > h2 {
+	padding: 14px;
+	margin-left: 28px;
+}
+
+.veggies > ol {
+	margin-left: 28px;
+}
+
+/** Snacks Items */
+.snacks {
+	background-color: darkblue;
+	height: 300px;
+	margin: 28px 28px 28px 14px;
+	width: 500px;
+	font-size: 28px;
+}
+
+.snacks > h2 {
+	padding: 14px;
+	margin-left: 28px;
+}
+
+.snacks > ol {
+	margin-left: 28px;
+}
