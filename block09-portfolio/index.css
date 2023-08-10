@@ -116,3 +116,22 @@ body {
 #footer img {
 	width: 60px;
 }
+
+/**
+  * Media Queries
+  */
+@media screen and (min-width: 1024px) {
+	.home__title {
+		text-align: center;
+		left: 90px;
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	.home__title {
+		text-align: center;
+		left: 980px;
+		font-size: 1.6rem;
+	}
+}
