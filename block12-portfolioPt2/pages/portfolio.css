@@ -120,21 +120,25 @@
 	}
 
 	.portfolio__project1 img {
+		cursor: pointer;
 		margin: 0px 7px;
 		max-width: 150px;
 	}
 
 	.portfolio__project2 img {
+		cursor: pointer;
 		margin: 0px 7px;
 		max-width: 150px;
 	}
 
 	.portfolio__project3 img {
+		cursor: pointer;
 		margin: 0px 7px;
 		max-width: 150px;
 	}
 
 	.portfolio__project4 img {
+		cursor: pointer;
 		margin: 0px 7px;
 		max-width: 150px;
 	}
