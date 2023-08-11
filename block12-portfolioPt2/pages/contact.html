@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Contact Me!</title>
+		<link
+			rel="stylesheet"
+			href="../style.css" />
+		<link
+			rel="stylesheet"
+			href="contact.css" />
+	</head>
+	<body>
+		<nav class="nav__container">
+			<div class="nav__logo">
+				<a href="../index.html"><h1>Calvin Thang</h1> </a>
+			</div>
+			<div class="nav__links">
+				<a href="../index.html">Home</a>
+				<a href="./about.html">About</a>
+				<a href="./portfolio.html">Portfolio</a>
+				<a href="./contact.html">Contact</a>
+			</div>
+		</nav>
+		<section class="contact__container">
+			<div class="contact__title">
+				<h2>Contact Me!</h2>
+			</div>
+			<form
+				action="../pages/success.html"
+				class="contact">
+				<label for="contact__firstName">First Name:</label>
+				<input
+					type="text"
+					placeholder="John Smith"
+					id="contact__firstName"
+					required />
+				<label for="contact__lastName">Last Name:</label>
+				<input
+					type="text"
+					placeholder="John Smith"
+					id="contact__lastName"
+					required />
+				<label for="contact__email">Email:</label>
+				<input
+					type="email"
+					placeholder="jsmith@email.com"
+					id="contact__email"
+					required />
+				<label for="contact__email">Confirm Email:</label>
+				<input
+					placeholder="jsmith@email.com"
+					type="email"
+					id="contact__email"
+					required />
+				<label for="contact__message">Message:</label>
+				<textarea
+					placeholder="Type your message here..."
+					rows="20"
+					class="contact__message"
+					id="contact__messageId"
+					required>
+				</textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<footer
+			class="footer__container"
+			id="footer">
+			<a href="https://github.com/calvieTech">
+				<img
+					src="../media/github.png"
+					alt="github" />
+			</a>
+			<a href="mailto:cthang@calvietech.com">
+				<img
+					src="../media/email.png"
+					alt="email" />
+			</a>
+			<a href="https://www.linkedin.com/in/cthang94/">
+				<img
+					src="../media/linkedin.png"
+					alt="linkedin"
+			/></a>
+		</footer>
+	</body>
+</html>
